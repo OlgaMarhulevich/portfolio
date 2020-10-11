@@ -7,17 +7,45 @@ body {
   min-height: 100vh;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 32px;
-  color: rgb(61, 66, 73);
-  background-color: white;
-  background-image: url("img/keks-background.jpg");
+  line-height: 25px;
+
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.body-dark-theme {
+  background-color: black;
+  background-image: url("img/dark-background.jpg");
+  background-size: 100%;
+  color: rgb(157, 197, 209);
+  text-shadow: 1px 1px 1px rgba(176, 208, 223, 0.9);
+}
+.body-light-theme {
+  background-color: white;
+  background-image: url("img/keks-background.jpg");
+  color: rgb(61, 66, 73);
+}
+
+.theme-button {
+  color: inherit;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.light-button {
+  background-color: rgba(183, 221, 228, 0.59);
+}
+.dark-button {
+  background-color: rgba(13, 19, 19, 0.53);
 }
 
 body,
 main {
   margin: 0 auto;
+}
+
+header nav {
+  min-width: 70%;
 }
 
 header nav,
@@ -28,9 +56,26 @@ footer {
   align-items: center;
 }
 
+.header-light-theme,
+.footer-light-theme {
+  min-height: 100px;
+  color: rgb(50, 96, 122);
+}
+
+.header-dark-theme,
+.footer-dark-theme {
+  min-height: 100px;
+  color: rgb(133, 200, 232);
+}
 
 header {
   grid-area: header;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-light-theme,
+.header-dark-theme {
   background: linear-gradient(to top, rgba(120, 174, 180, 0), rgba(120, 174, 180, 0.7));
 }
 
@@ -48,9 +93,9 @@ main {
   text-align: center;
 }
 .heading p {
-font-size: 30px;
-text-shadow: 2px 2px 2px rgba(25, 35, 37, 0.7);
-margin-top: 0;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(25, 35, 37, 0.7);
+  margin-top: 20px;
 }
 .heading h1 {
   color: rgba(70, 144, 176, 0.7);
@@ -143,12 +188,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.insta:active {
+a:active {
   color: rgb(33, 185, 241);
 }
 
+.footer-dark-theme,
+.footer-light-theme {
+  background: linear-gradient(to bottom, rgba(120, 174, 180, 0), rgba(120, 174, 180, 0.7));
+}
 
 footer {
   grid-area: footer;
-  background: linear-gradient(to bottom, rgba(120, 174, 180, 0), rgba(120, 174, 180, 0.7));
 }
