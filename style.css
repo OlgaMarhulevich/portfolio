@@ -9,13 +9,12 @@ body {
   font-size: 16px;
   line-height: 25px;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-size: 100%;
 }
 
 .body-dark-theme {
   background-color: black;
   background-image: url("img/dark-background.jpg");
-  background-size: 100%;
   color: rgb(157, 197, 209);
   text-shadow: 1px 1px 1px rgba(176, 208, 223, 0.9);
 }
@@ -26,8 +25,8 @@ body {
   text-shadow: 2px 2px 2px rgb(169, 223, 240);
 }
 .body-light-theme {
-  background-color: white;
-  background-image: url("img/keks-background.jpg");
+  background-color: rgb(249, 249, 249);
+  background-image: url("img/light-background.jpg");
   color: rgb(61, 66, 73);
 }
 
@@ -115,7 +114,7 @@ main {
   justify-content: space-between;
   align-items: center;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  margin: 130px 0 50px;
+  margin: 140px 20px 50px;
 }
 .heading p {
   font-size: 30px;
