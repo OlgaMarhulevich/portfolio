@@ -22,10 +22,10 @@ body {
   text-shadow: 1px 1px 1px rgba(176, 208, 223, 0.9);
 }
 .body-dark-theme h2 {
-  text-shadow: 2px 2px 2px rgb(57, 204, 244);
+  text-shadow: 2px 2px 2px rgba(57, 204, 244, 0.5);
 }
 .body-dark-theme .heading h1 {
-  text-shadow: 2px 2px 2px rgb(169, 223, 240);
+  text-shadow: 2px 2px 2px rgba(169, 223, 240, 0.7);
 }
 .body-light-theme {
   background-color: rgb(249, 249, 249);
@@ -102,6 +102,14 @@ main {
 
 main {
   grid-area: main;
+  margin-bottom: 3em;
+  width: 70%;
+}
+
+.wrapper {
+  background-color: rgba(222, 233, 236, 0.2);
+  padding: 20px 20px 20px 40px;
+  border-radius: 10px;
 }
 
 /*HEADING*/
