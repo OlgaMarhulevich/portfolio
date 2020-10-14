@@ -141,11 +141,10 @@ main {
 
 /*INTRODUTION*/
 
-.intro {
-  margin: 0 0 50px;
-}
+
 .subheading {
   margin: 0 0 45px;
+  padding-top: 1.5em;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   text-shadow: 3px 3px 3px rgba(25, 35, 37, 0.5);
   font-size: 3.5em;
