@@ -82,7 +82,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.8em;
+  font-size: 1.6em;
   width: 100%;
 }
 
@@ -239,6 +239,9 @@ main {
   margin: 0 0 60px;
 }
 
+.portfolio img {
+  margin-bottom: 3em;
+}
 /*FOOTER*/
 
 footer {
@@ -246,7 +249,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 30px;
+  padding: 30px 4em 0;
 }
 
 .email {
