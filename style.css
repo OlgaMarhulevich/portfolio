@@ -82,7 +82,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 100%;
 }
 
@@ -165,6 +165,21 @@ main {
   margin: 0 0 32px;
 }
 
+/*EDUCATION*/
+
+#education-div {
+  display: flex;
+  justify-content: space-around;
+}
+#education-div div {
+  padding:  0.3em 0.7em 0 0.3em;
+}
+#education-div div p {
+  padding-left: 0.7em;
+}
+#education-div div h3 {
+  font-size: 1.5em;
+}
 /*SKILLS*/
 
 .skills-list {
@@ -176,6 +191,11 @@ main {
   background-repeat: no-repeat;
   background-position: left;
 }
+
+.skill-eng {
+  background-size: 1.4em;
+  background-image: url("img/icon-eng.png");
+}
 .skill-html {
   background-image: url("img/icon-html.svg");
 }
@@ -183,9 +203,22 @@ main {
   background-image: url("img/icon-css.svg");
 }
 .skill-js {
-  background-size: 22px;
-  background-image: url("img/icon-js.jpg");
+  background-size: 1.4em;
+  background-image: url("img/icon-js.png");
 }
+.skill-php {
+  background-size: 1.4em;
+  background-image: url("img/icon-php.png");
+}
+.skill-ror {
+  background-size: 1.4em;
+  background-image: url("img/icon-ror.png");
+}
+.skill-c {
+  background-size: 1.4em;
+  background-image: url("img/icon-c.png");
+}
+
 .level {
   margin: 4px 0 10px;
   padding: 0;
@@ -205,7 +238,6 @@ main {
 .portfolio {
   margin: 0 0 60px;
 }
-
 
 /*FOOTER*/
 
