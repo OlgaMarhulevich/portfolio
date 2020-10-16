@@ -177,7 +177,6 @@ main {
 
 /*INTRODUTION*/
 
-
 .subheading {
   margin: 0 0 45px;
   padding-top: 1.5em;
@@ -269,7 +268,9 @@ main {
   border-radius: 6px;
 }
 
-
+.portfolio p {
+  margin-bottom: 30px;
+}
 .portfolio {
   margin: 0 0 60px;
 }
